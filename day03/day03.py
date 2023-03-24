@@ -213,20 +213,23 @@ print(r"""
 print('Welcome to Treasure Island Your mission is to find the treasure')
 
 user_choice = input("where do you want to go Left or Right")
+user_choice = user_choice.lower()
 
-if (user_choice == 'R') or (user_choice == 'Right') or (user_choice == 'r'):
+if (user_choice[0] == 'r'):
     print('Game over')
-if (user_choice == 'L') or (user_choice == 'Left') or (user_choice == 'l'):
+if (user_choice[0] == 'l'):
     second_user_choice = input("Do you want to swim or wait")
-    if ( second_user_choice == 'S') or (second_user_choice == 'swim'):
+    second_user_choice = second_user_choice.lower()
+    if (second_user_choice[0] == 's'):
         print('Game over')
     else :
         third_user_choice = input("You came across three doors, Blue, Red and Yello ... Choose one B, R, Y")
-        if (third_user_choice == 'B'):
+        third_user_choice = third_user_choice.lower()
+        if (third_user_choice[0] == 'b'):
             print('Game over')
-        elif ( third_user_choice == 'Y'):
+        elif ( third_user_choice[0] == 'y'):
             print('You win')
-        elif (third_user_choice == 'R'):
+        elif (third_user_choice[0] == 'r'):
             print('Game over')
         else:
             print('wrong choice')
