@@ -90,7 +90,7 @@ print(f"{row1}\n{row2}\n{row3}")
 
 #Rock Paper Scissors
 
-user_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+user_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 
 computer_choice = random.randint(0,2)
 
