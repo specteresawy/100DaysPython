@@ -20,6 +20,6 @@ for i in range(max_iteration):
 
 print(f"The highest score in the class is: {student_scores[max_iteration-1]}")
 # 🚨 Don't change the code above 👆
-
+print(f"the scores ascendingly are: {student_scores}")
 #Write your code below this row 👇
 

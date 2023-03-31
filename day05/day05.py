@@ -1,4 +1,18 @@
-a = 0
-b = 11 
-for number in range(a, b, 2):
-    print(number)
+#Loops
+
+# fruits = ['apple', 'mango', 'orange']
+
+# for fruit in fruits:
+#     print(fruit)
+#     print(fruit + " pie")
+#     print(fruits)
+
+counter = 0
+for number in range(1, 101):
+    counter += number
+print(counter)
+
+total = 0
+for evenNum in range(1,100,2):
+    total += evenNum
+print(total)
