@@ -152,6 +152,7 @@ def checkword(user_input, trials):
         if trials==max_trials:
             print(f'trials {trials}')
             print('Gameover')
+            print(f"the random word is {random_word}")
         else:
           print(HANGMANPICS[trials])
           print(hidden_array)
@@ -159,9 +160,5 @@ def checkword(user_input, trials):
           usr_input = startgame()
           checkword(usr_input,trials)
         
-
-
-
-
 checkword(usr_input,trials)
 
