@@ -14,7 +14,10 @@ def prime_checker(number):
     if(len(indices)> 2):
         print("It's not a prime number.")
     else:
-        print("It's a prime number.")    
+        print("It's a prime number.")  
+
+        
+          
 #Write your code above this line 👆
     
 #Do NOT change any of the code below👇
